@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="discount.css">
+</head>
+
+<body>
+    <div class="calculator-container">
+        <h2>Discount Calculator</h2>
+
+        <label for="original-price">Original Price:</label>
+        <input type="number" id="original-price" placeholder="Enter original price" min="0">
+
+        <label for="discount">Discount Percentage:</label>
+        <input type="number" id="discount" placeholder="Enter discount %" min="0" max="100">
+
+        <label for="final-price">Final Price (with 5% Tax):</label>
+        <input type="text" id="final-price" readonly>
+
+    </div>
+
+    <script src="discount.js"></script>
+</body>
+
+</html>
